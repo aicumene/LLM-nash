@@ -1,0 +1,17 @@
+# braess4.py, seeds 7 and 8, mixed families, randomized start
+# console output of 2026-06-30
+
+--- seed 7: init=['R2', 'R1', 'R2', 'R3', 'R1', 'R1'] -> final=['R1', 'R1', 'R2', 'R2', 'R2', 'R2']  exploit(max regret)=13 ---
+       Qwen: avg time  72.0  смен маршрута 5  init ['R2', 'R1'] -> final ['R1', 'R1']
+      Gemma: avg time  94.0  смен маршрута 1  init ['R2', 'R3'] -> final ['R2', 'R2']
+   Nemotron: avg time  94.0  смен маршрута 2  init ['R1', 'R1'] -> final ['R2', 'R2']
+
+--- seed 8: init=['R1', 'R2', 'R2', 'R1', 'R1', 'R3'] -> final=['R1', 'R3', 'R2', 'R2', 'R2', 'R2']  exploit(max regret)=22 ---
+       Qwen: avg time  76.0  смен маршрута 7  init ['R1', 'R2'] -> final ['R1', 'R3']
+      Gemma: avg time 104.0  смен маршрута 3  init ['R2', 'R1'] -> final ['R2', 'R2']
+   Nemotron: avg time 104.0  смен маршрута 2  init ['R1', 'R3'] -> final ['R2', 'R2']
+
+=== СВОДКА по семьям (среднее время по всем seed) ===
+       Qwen: 74.0
+      Gemma: 99.0
+   Nemotron: 99.0

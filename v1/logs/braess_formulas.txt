@@ -1,0 +1,14 @@
+# braess2.py hard, costs from formulas (console tail)
+# console output of 2026-06-30
+
+=== HARD, 6×Qwen, БЕЗ дороги (формулы, считают сами) ===
+  pass 1: R1=4 R2=2 R3=0  times={'R1': 94, 'R2': 72}  avg=86.7 system=520
+  pass 2: R1=3 R2=3 R3=0  times={'R1': 83, 'R2': 83}  avg=83.0 system=498
+  pass 3: R1=3 R2=3 R3=0  times={'R1': 83, 'R2': 83}  avg=83.0 system=498
+  теория: 3/3 -> 83
+
+=== HARD, 6×Qwen, С дорогой R3 (формулы, считают сами) ===
+  pass 1: R1=2 R2=0 R3=4  times={'R1': 112, 'R2': 90, 'R3': 114}  avg=113.3 system=680
+  pass 2: R1=3 R2=0 R3=3  times={'R1': 113, 'R2': 80, 'R3': 103}  avg=108.0 system=648
+  pass 3: R1=0 R2=0 R3=6  times={'R1': 110, 'R2': 110, 'R3': 136}  avg=136.0 system=816
+  теория: 2/2/2 -> 92 (всем хуже)

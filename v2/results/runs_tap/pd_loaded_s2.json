@@ -1,0 +1,1380 @@
+{
+ "meta": {
+  "game": "pd",
+  "cond": "loaded",
+  "seed": 2,
+  "api": "messages",
+  "base": "http://127.0.0.1:8097",
+  "model": "qwen3.8-flash-next",
+  "tap": {
+   "layers": [
+    6,
+    11,
+    18,
+    30,
+    42,
+    47,
+    -1
+   ],
+   "experts": true
+  },
+  "started": "2026-10-17 06:02:24",
+  "labels": [
+   "Cooperate",
+   "Defect"
+  ],
+  "R": 8,
+  "script": null,
+  "history_labels": true,
+  "finished": "2026-10-17 06:02:38",
+  "seconds": 14,
+  "n_calls": 16
+ },
+ "rounds": [
+  {
+   "round": 0,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 1,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 2,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 3,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 4,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 5,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 6,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 7,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "round": 0,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "Round 1. Your move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200002,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since there is no history to judge the opponent's strategy, I will start with Cooperation to establish a mutually beneficial pattern.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 141,
+    "output_tokens": 30
+   },
+   "token_ids": [
+    12189,
+    1017,
+    369,
+    874,
+    3712,
+    310,
+    11315,
+    279,
+    14279,
+    579,
+    8024,
+    11,
+    353,
+    668,
+    1151,
+    440,
+    70237,
+    310,
+    5517,
+    264,
+    50713,
+    22957,
+    5215,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nRound 1. Your move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/231",
+    "n_steps": 30,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.67,
+   "extra": {}
+  },
+  {
+   "i": 1,
+   "round": 0,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "Round 1. Your move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200001,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "As this is the first round with no history to gauge the opponent's strategy, I will start with Cooperate to encourage mutual cooperation.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 141,
+    "output_tokens": 33
+   },
+   "token_ids": [
+    2053,
+    411,
+    369,
+    279,
+    1118,
+    4625,
+    440,
+    874,
+    3712,
+    310,
+    29877,
+    279,
+    14279,
+    579,
+    8024,
+    11,
+    353,
+    668,
+    1151,
+    440,
+    22782,
+    344,
+    310,
+    14476,
+    25896,
+    22328,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nRound 1. Your move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/232",
+    "n_steps": 33,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.75,
+   "extra": {}
+  },
+  {
+   "i": 2,
+   "round": 1,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200101,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since the opponent cooperated in the first round, I will continue to cooperate to maintain mutual trust and maximize long-term gains.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 154,
+    "output_tokens": 31
+   },
+   "token_ids": [
+    12189,
+    279,
+    14279,
+    21009,
+    639,
+    303,
+    279,
+    1118,
+    4625,
+    11,
+    353,
+    668,
+    2962,
+    310,
+    45238,
+    310,
+    10000,
+    25896,
+    6734,
+    321,
+    33363,
+    1248,
+    9375,
+    19019,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/234",
+    "n_steps": 31,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.72,
+   "extra": {}
+  },
+  {
+   "i": 3,
+   "round": 1,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200102,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since the opponent cooperated in the first round, I will continue to cooperate to establish a mutually beneficial pattern and maximize long-term gains.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 154,
+    "output_tokens": 33
+   },
+   "token_ids": [
+    12189,
+    279,
+    14279,
+    21009,
+    639,
+    303,
+    279,
+    1118,
+    4625,
+    11,
+    353,
+    668,
+    2962,
+    310,
+    45238,
+    310,
+    5517,
+    264,
+    50713,
+    22957,
+    5215,
+    321,
+    33363,
+    1248,
+    9375,
+    19019,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/233",
+    "n_steps": 33,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.74,
+   "extra": {}
+  },
+  {
+   "i": 4,
+   "round": 2,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200202,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently cooperated, so maintaining mutual cooperation ensures a steady payoff of 3 points per round.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 168,
+    "output_tokens": 28
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    11,
+    748,
+    19720,
+    25896,
+    22328,
+    24546,
+    264,
+    23271,
+    81356,
+    314,
+    220,
+    18,
+    3387,
+    791,
+    4625,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/235",
+    "n_steps": 28,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.62,
+   "extra": {}
+  },
+  {
+   "i": 5,
+   "round": 2,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200201,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently cooperated, so I will continue to cooperate to maintain mutual trust and maximize cumulative points.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 168,
+    "output_tokens": 28
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    11,
+    748,
+    353,
+    668,
+    2962,
+    310,
+    45238,
+    310,
+    10000,
+    25896,
+    6734,
+    321,
+    33363,
+    38523,
+    3387,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/236",
+    "n_steps": 28,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.64,
+   "extra": {}
+  },
+  {
+   "i": 6,
+   "round": 3,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200301,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently cooperated, so I should continue to cooperate to maintain mutual trust and maximize long-term gains.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 182,
+    "output_tokens": 29
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    11,
+    748,
+    353,
+    1220,
+    2962,
+    310,
+    45238,
+    310,
+    10000,
+    25896,
+    6734,
+    321,
+    33363,
+    1248,
+    9375,
+    19019,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/237",
+    "n_steps": 29,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.64,
+   "extra": {}
+  },
+  {
+   "i": 7,
+   "round": 3,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200302,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently cooperated, so continuing to cooperate maintains the mutual benefit of 3 points per round, which is better than the short-term gain of 5 followed by potential retaliation.\n\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 182,
+    "output_tokens": 44
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    11,
+    748,
+    13942,
+    310,
+    45238,
+    30941,
+    279,
+    25896,
+    8495,
+    314,
+    220,
+    18,
+    3387,
+    791,
+    4625,
+    11,
+    864,
+    369,
+    2577,
+    1056,
+    279,
+    2716,
+    9375,
+    8457,
+    314,
+    220,
+    20,
+    7854,
+    539,
+    4499,
+    58313,
+    13,
+    271,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/238",
+    "n_steps": 44,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.96,
+   "extra": {}
+  },
+  {
+   "i": 8,
+   "round": 4,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200402,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since my opponent has consistently cooperated, I will continue to cooperate to maintain the high mutual payoff and encourage them to keep cooperating.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 196,
+    "output_tokens": 32
+   },
+   "token_ids": [
+    12189,
+    821,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    11,
+    353,
+    668,
+    2962,
+    310,
+    45238,
+    310,
+    10000,
+    279,
+    1496,
+    25896,
+    81356,
+    321,
+    14476,
+    1070,
+    310,
+    2426,
+    78679,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/239",
+    "n_steps": 32,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.78,
+   "extra": {}
+  },
+  {
+   "i": 9,
+   "round": 4,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200401,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently cooperated, so I will continue to cooperate to maintain the high mutual payoff of 3 points per round.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 196,
+    "output_tokens": 32
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    11,
+    748,
+    353,
+    668,
+    2962,
+    310,
+    45238,
+    310,
+    10000,
+    279,
+    1496,
+    25896,
+    81356,
+    314,
+    220,
+    18,
+    3387,
+    791,
+    4625,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/240",
+    "n_steps": 32,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.8,
+   "extra": {}
+  },
+  {
+   "i": 10,
+   "round": 5,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\nround 5: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200502,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently cooperated for five rounds, so maintaining this mutual cooperation yields the best expected payoff.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 210,
+    "output_tokens": 27
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    364,
+    4097,
+    18937,
+    11,
+    748,
+    19720,
+    411,
+    25896,
+    22328,
+    34237,
+    279,
+    1786,
+    3481,
+    81356,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\nround 5: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/242",
+    "n_steps": 27,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.65,
+   "extra": {}
+  },
+  {
+   "i": 11,
+   "round": 5,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\nround 5: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200501,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since the opponent has consistently cooperated for five rounds, continuing to cooperate maximizes my long-term payoff by maintaining mutual trust.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 210,
+    "output_tokens": 31
+   },
+   "token_ids": [
+    12189,
+    279,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    364,
+    4097,
+    18937,
+    11,
+    13942,
+    310,
+    45238,
+    29044,
+    4603,
+    821,
+    1248,
+    9375,
+    81356,
+    539,
+    19720,
+    25896,
+    6734,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\nround 5: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/241",
+    "n_steps": 31,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.72,
+   "extra": {}
+  },
+  {
+   "i": 12,
+   "round": 6,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\nround 5: you=Cooperate, opponent=Cooperate\nround 6: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200601,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since the opponent has consistently cooperated for six rounds, maintaining cooperation sustains the highest mutual payoff without triggering retaliation.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 224,
+    "output_tokens": 29
+   },
+   "token_ids": [
+    12189,
+    279,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    364,
+    4590,
+    18937,
+    11,
+    19720,
+    22328,
+    9931,
+    1674,
+    279,
+    8166,
+    25896,
+    81356,
+    1973,
+    49769,
+    58313,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\nround 5: you=Cooperate, opponent=Cooperate\nround 6: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/243",
+    "n_steps": 29,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.72,
+   "extra": {}
+  },
+  {
+   "i": 13,
+   "round": 6,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\nround 5: you=Cooperate, opponent=Cooperate\nround 6: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200602,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently cooperated for six rounds, so I should continue to cooperate to maintain this mutually beneficial pattern.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 224,
+    "output_tokens": 29
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    364,
+    4590,
+    18937,
+    11,
+    748,
+    353,
+    1220,
+    2962,
+    310,
+    45238,
+    310,
+    10000,
+    411,
+    50713,
+    22957,
+    5215,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\nround 5: you=Cooperate, opponent=Cooperate\nround 6: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/244",
+    "n_steps": 29,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.73,
+   "extra": {}
+  },
+  {
+   "i": 14,
+   "round": 7,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\nround 5: you=Cooperate, opponent=Cooperate\nround 6: you=Cooperate, opponent=Cooperate\nround 7: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200702,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently cooperated, so I will continue to cooperate to maintain the high mutual payoff of 3 points per round.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 238,
+    "output_tokens": 32
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    11,
+    748,
+    353,
+    668,
+    2962,
+    310,
+    45238,
+    310,
+    10000,
+    279,
+    1496,
+    25896,
+    81356,
+    314,
+    220,
+    18,
+    3387,
+    791,
+    4625,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\nround 5: you=Cooperate, opponent=Cooperate\nround 6: you=Cooperate, opponent=Cooperate\nround 7: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/245",
+    "n_steps": 32,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.86,
+   "extra": {}
+  },
+  {
+   "i": 15,
+   "round": 7,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\nround 5: you=Cooperate, opponent=Cooperate\nround 6: you=Cooperate, opponent=Cooperate\nround 7: you=Cooperate, opponent=Cooperate\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 200701,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since the opponent has consistently cooperated for all previous rounds, I will maintain this mutual cooperation to secure the highest stable payoff in the final round.\nMOVE: Cooperate",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 238,
+    "output_tokens": 35
+   },
+   "token_ids": [
+    12189,
+    279,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    364,
+    660,
+    3555,
+    18937,
+    11,
+    353,
+    668,
+    10000,
+    411,
+    25896,
+    22328,
+    310,
+    9475,
+    279,
+    8166,
+    14733,
+    81356,
+    303,
+    279,
+    1534,
+    4625,
+    13,
+    198,
+    28164,
+    25,
+    22782,
+    344
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Cooperate or Defect. Per-round payoffs: Both choose Cooperate: you get 3. You Cooperate & they Defect: you 0, they 5. You Defect & they Cooperate: you 5, they 0. Both Defect: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Cooperate' or 'MOVE: Defect'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Cooperate, opponent=Cooperate\nround 2: you=Cooperate, opponent=Cooperate\nround 3: you=Cooperate, opponent=Cooperate\nround 4: you=Cooperate, opponent=Cooperate\nround 5: you=Cooperate, opponent=Cooperate\nround 6: you=Cooperate, opponent=Cooperate\nround 7: you=Cooperate, opponent=Cooperate\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/246",
+    "n_steps": 35,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.94,
+   "extra": {}
+  }
+ ]
+}

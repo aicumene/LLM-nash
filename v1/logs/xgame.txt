@@ -1,0 +1,16 @@
+# xgame.py, Qwen vs Gemma 4, loaded and neutral labels
+# console output of 2026-06-30
+
+=== Mac -> tesla:8000 (Qwen)? ===
+{"object":"list","data":[{"id":"Qwen3.6-27B-AWQ","object":"m  >> Qwen reachable
+
+=== run cross-machine PD (Qwen tesla vs Gemma-4 Thor) ===
+PD кросс-машина: P1 = Qwen3.6 (tesla/V100)  vs  P2 = Gemma-4-31B (Thor)
+
+=== гружёные (Cooperate/Defect) ===
+раунды (Qwen Gemma): CC CC CC CC DC DC
+кооперация 83%  |  Qwen=22 Gemma=12  |  взаимный дефект(Нэш) 0/6
+
+=== нейтральные (Option A/Option B) ===
+раунды (Qwen Gemma): CC CC CC DC DC DC
+кооперация 75%  |  Qwen=24 Gemma=9  |  взаимный дефект(Нэш) 0/6

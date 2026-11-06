@@ -1,0 +1,48 @@
+braess_easy_TG_s0.json                38s   24 calls  1.6s/call | 2/2/2:0 2/2/2:0 2/2/2:0 2/2/2:0
+braess_easy_TG_s1.json                35s   24 calls  1.5s/call | 2/2/2:0 2/2/2:0 2/2/2:0 2/2/2:0
+braess_easy_TG_s2.json                27s   24 calls  1.1s/call | 2/2/2:0 2/2/2:0 2/2/2:0 2/2/2:0
+braess_easy_noTG_s0.json              18s   24 calls  0.7s/call | 3/3/0:0 3/3/0:0 3/3/0:0 3/3/0:0
+braess_easy_noTG_s1.json              15s   24 calls  0.6s/call | 3/3/0:0 3/3/0:0 3/3/0:0 3/3/0:0
+braess_easy_noTG_s2.json              18s   24 calls  0.7s/call | 3/3/0:0 3/3/0:0 3/3/0:0 3/3/0:0
+braess_experience_TG_s0.json         559s  120 calls  4.7s/call | 2/0/4:23 2/0/4:23 2/0/4:23 2/0/4:23 2/0/4:23 2/0/4:23 2/0/4:23 2/0/4:23 2/0/4:23 2/1/3:11 2/2/2:0 0/2/4:23 2/4/0:13 2/2/2:0 1/3/2:11 2/2/2:0 1/2/3:11 
+braess_experience_TG_s1.json         393s  120 calls  3.3s/call | 0/1/5:24 0/1/5:24 0/1/5:24 0/1/5:24 0/1/5:24 0/1/5:24 0/1/5:24 0/1/5:24 0/1/5:24 0/1/5:24 0/2/4:23 0/4/2:33 3/0/3:22 1/4/1:22 0/3/3:22 1/2/3:11 1/2/3:
+braess_experience_TG_s2.json         440s  120 calls  3.7s/call | 2/0/4:23 2/0/4:23 2/0/4:23 2/0/4:23 2/0/4:23 1/1/4:12 1/2/3:11 0/3/3:22 0/2/4:23 0/1/5:24 2/3/1:1 0/2/4:23 2/3/1:1 1/2/3:11 2/2/2:0 1/4/1:22 1/3/2:11 
+braess_hard_TG_s0.json               147s   24 calls  6.1s/call | 0/3/3:22 0/6/0:55 0/6/0:55 0/3/3:22
+braess_hard_TG_s1.json               126s   24 calls  5.3s/call | 0/2/4:23 0/4/2:33 0/6/0:55 0/5/1:44
+braess_hard_TG_s2.json               129s   24 calls  5.4s/call | 0/4/2:33 0/2/4:23 0/2/4:23 0/3/3:22
+braess_hard_noTG_s0.json             107s   24 calls  4.4s/call | 3/3/0:0 3/3/0:0 3/3/0:0 5/1/0:33
+braess_hard_noTG_s1.json              87s   24 calls  3.6s/call | 2/4/0:11 4/2/0:11 4/2/0:11 5/1/0:33
+braess_hard_noTG_s2.json              85s   24 calls  3.5s/call | 1/5/0:33 4/2/0:11 1/5/0:33 2/4/0:11
+braess_surrogate_hard_TG_s0.json     133s   24 calls  5.5s/call | mean regret 13.2; regrets 22 10 0 11 0 23 0 1 2 10 11 22 22 11 24 0 55 44 1 23 12 11 0 1
+braess_surrogate_hard_TG_s1.json     136s   24 calls  5.7s/call | mean regret 8.5; regrets 22 0 11 11 0 22 2 11 11 0 0 13 2 22 0 11 33 1 11 9 0 0 1 10
+braess_surrogate_hard_TG_s2.json     132s   24 calls  5.5s/call | mean regret 13.0; regrets 10 10 0 23 0 0 0 0 10 12 1 12 13 33 10 23 22 22 11 0 12 11 33 44
+pbeauty_p0.667_s0.json                38s   30 calls  1.3s/call | 32.8/27 17.0/11 7.4/6 4.0/2 2.1/3 0.7/1
+pbeauty_p0.667_s1.json                48s   30 calls  1.6s/call | 29.2/16 15.8/11 7.8/3 3.6/4 1.2/1 0.4/1
+pbeauty_p0.667_s2.json                53s   30 calls  1.8s/call | 25.2/30 12.6/9 5.5/4 2.7/1 1.4/1 0.8/1
+pbeauty_p1.2_s0.json                  69s   30 calls  2.3s/call | 66.0/45 83.4/33 92.0/40 99.6/28 100.0/26 100.0/26
+pbeauty_p1.2_s1.json                  51s   30 calls  1.7s/call | 46.2/73 54.0/39 70.0/25 85.8/46 92.0/60 99.0/31
+pbeauty_p1.2_s2.json                  49s   30 calls  1.6s/call | 54.4/86 70.6/22 70.0/100 91.6/29 99.8/27 100.0/26
+pbeauty_surrogate_p0.667_s0.json      10s    6 calls  1.6s/call | 51.2/58 44.6/56 54.5/63 43.1/54 76.9/54 56.5/60
+pbeauty_surrogate_p0.667_s1.json      11s    6 calls  1.8s/call | 45.6/63 51.7/51 33.8/70 43.0/55 47.1/73 42.5/76
+pbeauty_surrogate_p0.667_s2.json      10s    6 calls  1.7s/call | 49.5/72 55.4/54 45.6/35 56.5/71 49.9/71 21.9/37
+pd_loaded_s0.json                     16s   16 calls  1.9s/call | CD DC DD CD DD DD DD DD | expl 1 1 0 1 0 0 0 0
+pd_loaded_s1.json                     17s   16 calls  2.0s/call | CD DD DD DD DD DD DD DD | expl 1 0 0 0 0 0 0 0
+pd_loaded_s2.json                     14s   16 calls  1.7s/call | CC CC CC CC CC CC CC CC | expl 2 2 2 2 2 2 2 2
+pd_neutral_s0.json                    17s   16 calls  2.0s/call | CC CC CC CC CC CC CC CC | expl 2 2 2 2 2 2 2 2
+pd_neutral_s1.json                    20s   16 calls  2.3s/call | CD DC DD DC DD DD DD CD | expl 1 1 0 1 0 0 0 1
+pd_neutral_s2.json                    18s   16 calls  2.2s/call | CD DD DD DD DD CD DD DD | expl 1 0 0 0 0 1 0 0
+pd_script_allC_s0.json                15s   14 calls  1.1s/call | CC CC CC CC CC CC CC CC CC CC CC CC CC CC | expl 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+pd_script_allC_s1.json                14s   14 calls  1.0s/call | CC CC CC CC CC CC CC CC CC CC CC CC CC CC | expl 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+pd_script_allC_s2.json                13s   14 calls  0.9s/call | CC CC CC CC CC CC CC CC CC CC CC CC CC CC | expl 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+pd_script_random35_s0.json            23s   24 calls  1.0s/call | CC CC CC CD DC CC CC CD DC CC CC DC DD DC DC DD DC DC DC DC DD DC DC DC | expl 2 2 2 1 1 2 2 1 1 2 2 1 0 1 1 0 1 1 1 1 0 1 1 1
+pd_script_random35_s1.json            22s   24 calls  0.9s/call | CD DC CC CD DC DC DC DC DD DD DC DC DC DD DC DC DD DC DC DD DD DC DC DC | expl 1 1 2 1 1 1 1 1 0 0 1 1 1 0 1 1 0 1 1 0 0 1 1 1
+pd_script_random35_s2.json            21s   24 calls  0.9s/call | CC CC CD DD DC CC CC CD DC DC DC DD DC DC DC DC DC DC DC DD CD DD DC DD | expl 2 2 1 0 1 2 2 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0 1 0
+pd_script_single_early_s0.json        13s   14 calls  0.9s/call | CC CC CC CD CC CC CC CC CC CC CC CC CC CC | expl 2 2 2 1 2 2 2 2 2 2 2 2 2 2
+pd_script_single_early_s1.json        13s   14 calls  0.9s/call | CC CC CC CD CC CC CC CC CC CC CC CC CC DC | expl 2 2 2 1 2 2 2 2 2 2 2 2 2 1
+pd_script_single_early_s2.json        12s   14 calls  0.9s/call | CC CC CC CD DC DC DC DC DC DC DC DC DC DC | expl 2 2 2 1 1 1 1 1 1 1 1 1 1 1
+pd_script_single_late_s0.json         12s   14 calls  0.9s/call | CC CC CC CC CC CC CC CC CC CC CD DC DC CC | expl 2 2 2 2 2 2 2 2 2 2 1 1 1 2
+pd_script_single_late_s1.json         12s   14 calls  0.8s/call | CC CC CC CC CC CC CC CC CC CC CD DC CC CC | expl 2 2 2 2 2 2 2 2 2 2 1 1 2 2
+pd_script_single_late_s2.json         12s   14 calls  0.8s/call | CC CC CC CC CC CC CC CC CC CC CD DC DC CC | expl 2 2 2 2 2 2 2 2 2 2 1 1 1 2
+pd_script_single_mid_s0.json          12s   14 calls  0.8s/call | CC CC CC CC CC CC CC CD DC DC DC DC CC CC | expl 2 2 2 2 2 2 2 1 1 1 1 1 2 2
+pd_script_single_mid_s1.json          11s   14 calls  0.8s/call | CC CC CC CC CC CC CC CD DC DC DC DC DC CC | expl 2 2 2 2 2 2 2 1 1 1 1 1 1 2
+pd_script_single_mid_s2.json          13s   14 calls  0.9s/call | CC CC CC CC CC CC CC CD DC CC DC DC DC DC | expl 2 2 2 2 2 2 2 1 1 2 1 1 1 1

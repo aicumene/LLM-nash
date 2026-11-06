@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+analysis/figs/
+v2/results/new_runs/

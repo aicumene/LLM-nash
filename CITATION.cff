@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: If you use this code or these transcripts, please cite the preprint below.
+title: "LLM-nash: games, transcripts and analysis for When Do Language Models Reach Nash?"
+type: software
+authors:
+  - family-names: Bernadotte
+    given-names: Alexandra
+    orcid: "https://orcid.org/0000-0002-8835-6583"
+    affiliation: AiCumene
+  - family-names: Menshikov
+    given-names: Ivan
+    orcid: "https://orcid.org/0000-0002-9987-4060"
+    affiliation: AiCumene
+license: MIT
+url: "https://research.aicumene.com/papers/llm-nash/"
+repository-code: "https://github.com/aicumene/LLM-nash"
+keywords:
+  - large language models
+  - Nash equilibrium
+  - Prisoner's Dilemma
+  - beauty contest
+  - Braess paradox
+  - memory-one strategies
+preferred-citation:
+  type: article
+  title: "When Do Language Models Reach Nash? Heterogeneous Cross-Family LLM Agents in Classic Economic Games"
+  authors:
+    - family-names: Bernadotte
+      given-names: Alexandra
+      orcid: "https://orcid.org/0000-0002-8835-6583"
+    - family-names: Menshikov
+      given-names: Ivan
+      orcid: "https://orcid.org/0000-0002-9987-4060"
+  year: 2026
+  doi: "10.2139/ssrn.7637178"
+  url: "https://research.aicumene.com/papers/llm-nash/"

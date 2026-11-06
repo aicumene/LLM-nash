@@ -1,0 +1,1479 @@
+{
+ "meta": {
+  "game": "pd",
+  "cond": "neutral",
+  "seed": 0,
+  "api": "messages",
+  "base": "http://127.0.0.1:8097",
+  "model": "qwen3.8-flash-next",
+  "tap": {
+   "layers": [
+    6,
+    11,
+    18,
+    30,
+    42,
+    47,
+    -1
+   ],
+   "experts": true
+  },
+  "started": "2026-10-17 06:02:38",
+  "labels": [
+   "Option A",
+   "Option B"
+  ],
+  "R": 8,
+  "script": null,
+  "history_labels": true,
+  "finished": "2026-10-17 06:02:56",
+  "seconds": 17,
+  "n_calls": 16
+ },
+ "rounds": [
+  {
+   "round": 0,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 1,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 2,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 3,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 4,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 5,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 6,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  },
+  {
+   "round": 7,
+   "moves": [
+    "C",
+    "C"
+   ],
+   "payoff": [
+    3,
+    3
+   ],
+   "regret": [
+    2,
+    2
+   ],
+   "exploitability": 2,
+   "normalised": 0.4
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "round": 0,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "Round 1. Your move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 2,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "I will choose Option A to aim for a mutually beneficial outcome and establish cooperation from the start.\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 141,
+    "output_tokens": 25
+   },
+   "token_ids": [
+    40,
+    668,
+    4992,
+    6743,
+    357,
+    310,
+    8940,
+    364,
+    264,
+    50713,
+    22957,
+    14830,
+    321,
+    5517,
+    22328,
+    494,
+    279,
+    1151,
+    13,
+    198,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nRound 1. Your move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/248",
+    "n_steps": 25,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.5,
+   "extra": {}
+  },
+  {
+   "i": 1,
+   "round": 0,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "Round 1. Your move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 1,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since this is the first round with no history, I will choose the option that offers a high payoff if the opponent cooperates, while avoiding the temptation to defect immediately to establish a cooperative equilibrium.\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 141,
+    "output_tokens": 45
+   },
+   "token_ids": [
+    12189,
+    411,
+    369,
+    279,
+    1118,
+    4625,
+    440,
+    874,
+    3712,
+    11,
+    353,
+    668,
+    4992,
+    279,
+    2904,
+    421,
+    5891,
+    264,
+    1496,
+    81356,
+    413,
+    279,
+    14279,
+    21009,
+    942,
+    11,
+    1345,
+    29436,
+    279,
+    59288,
+    310,
+    21531,
+    6849,
+    310,
+    5517,
+    264,
+    45883,
+    53454,
+    13,
+    198,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nRound 1. Your move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/247",
+    "n_steps": 45,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.9,
+   "extra": {}
+  },
+  {
+   "i": 2,
+   "round": 1,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 101,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since the opponent cooperated in the first round, I will maintain mutual cooperation to build trust and secure steady points.\n\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 154,
+    "output_tokens": 29
+   },
+   "token_ids": [
+    12189,
+    279,
+    14279,
+    21009,
+    639,
+    303,
+    279,
+    1118,
+    4625,
+    11,
+    353,
+    668,
+    10000,
+    25896,
+    22328,
+    310,
+    1870,
+    6734,
+    321,
+    9475,
+    23271,
+    3387,
+    13,
+    271,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/250",
+    "n_steps": 29,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.64,
+   "extra": {}
+  },
+  {
+   "i": 3,
+   "round": 1,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 102,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since we both cooperated in the first round, I will continue with Option A to maintain the high mutual payoff of 3 points.\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 154,
+    "output_tokens": 33
+   },
+   "token_ids": [
+    12189,
+    567,
+    2107,
+    21009,
+    639,
+    303,
+    279,
+    1118,
+    4625,
+    11,
+    353,
+    668,
+    2962,
+    440,
+    6743,
+    357,
+    310,
+    10000,
+    279,
+    1496,
+    25896,
+    81356,
+    314,
+    220,
+    18,
+    3387,
+    13,
+    198,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/249",
+    "n_steps": 33,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.71,
+   "extra": {}
+  },
+  {
+   "i": 4,
+   "round": 2,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 201,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since the opponent has consistently cooperated by choosing Option A, I will continue to choose Option A to maintain mutual cooperation and maximize our joint payoffs.\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 168,
+    "output_tokens": 36
+   },
+   "token_ids": [
+    12189,
+    279,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    539,
+    18207,
+    6743,
+    357,
+    11,
+    353,
+    668,
+    2962,
+    310,
+    4992,
+    6743,
+    357,
+    310,
+    10000,
+    25896,
+    22328,
+    321,
+    33363,
+    1004,
+    9978,
+    2216,
+    31410,
+    13,
+    198,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/251",
+    "n_steps": 36,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.95,
+   "extra": {}
+  },
+  {
+   "i": 5,
+   "round": 2,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 202,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Opponent is cooperating, so I will stick with Option A to maintain mutual cooperation and avoid the risk of them switching to B if I try to exploit them.\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 168,
+    "output_tokens": 38
+   },
+   "token_ids": [
+    53881,
+    81631,
+    369,
+    78679,
+    11,
+    748,
+    353,
+    668,
+    8941,
+    440,
+    6743,
+    357,
+    310,
+    10000,
+    25896,
+    22328,
+    321,
+    5471,
+    279,
+    5048,
+    314,
+    1070,
+    26865,
+    310,
+    417,
+    413,
+    353,
+    1380,
+    310,
+    31133,
+    1070,
+    13,
+    198,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/252",
+    "n_steps": 38,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 2.02,
+   "extra": {}
+  },
+  {
+   "i": 6,
+   "round": 3,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 302,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Opponent has consistently cooperated, so I will continue to choose Option A to maintain mutual cooperation and maximize long-term gains.\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 182,
+    "output_tokens": 31
+   },
+   "token_ids": [
+    53881,
+    81631,
+    682,
+    20073,
+    21009,
+    639,
+    11,
+    748,
+    353,
+    668,
+    2962,
+    310,
+    4992,
+    6743,
+    357,
+    310,
+    10000,
+    25896,
+    22328,
+    321,
+    33363,
+    1248,
+    9375,
+    19019,
+    13,
+    198,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/253",
+    "n_steps": 31,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.73,
+   "extra": {}
+  },
+  {
+   "i": 7,
+   "round": 3,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 301,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Opponent has consistently cooperated with Option A, so I will maintain this mutual cooperation to maximize my steady payoff of 3 per round.\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 182,
+    "output_tokens": 34
+   },
+   "token_ids": [
+    53881,
+    81631,
+    682,
+    20073,
+    21009,
+    639,
+    440,
+    6743,
+    357,
+    11,
+    748,
+    353,
+    668,
+    10000,
+    411,
+    25896,
+    22328,
+    310,
+    33363,
+    821,
+    23271,
+    81356,
+    314,
+    220,
+    18,
+    791,
+    4625,
+    13,
+    198,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/254",
+    "n_steps": 34,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.82,
+   "extra": {}
+  },
+  {
+   "i": 8,
+   "round": 4,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 401,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently cooperated, so I will continue to cooperate to maintain the mutual 3-point payoff.\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 196,
+    "output_tokens": 28
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    11,
+    748,
+    353,
+    668,
+    2962,
+    310,
+    45238,
+    310,
+    10000,
+    279,
+    25896,
+    220,
+    18,
+    16086,
+    81356,
+    13,
+    198,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/256",
+    "n_steps": 28,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 2.64,
+   "extra": {}
+  },
+  {
+   "i": 9,
+   "round": 4,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 402,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since both of us consistently choose Option A, I will stick with Option A to secure 3 points again, as deviating offers no clear advantage given the stable cooperation pattern.\n\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 196,
+    "output_tokens": 41
+   },
+   "token_ids": [
+    12189,
+    2107,
+    314,
+    586,
+    20073,
+    4992,
+    6743,
+    357,
+    11,
+    353,
+    668,
+    8941,
+    440,
+    6743,
+    357,
+    310,
+    9475,
+    220,
+    18,
+    3387,
+    1495,
+    11,
+    430,
+    3371,
+    22184,
+    5891,
+    874,
+    2708,
+    9144,
+    2574,
+    279,
+    14733,
+    22328,
+    5215,
+    13,
+    271,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/255",
+    "n_steps": 41,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 2.87,
+   "extra": {}
+  },
+  {
+   "i": 10,
+   "round": 5,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\nround 5: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 502,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently cooperated by choosing Option A for five rounds, so I will continue to choose Option A to maintain the stable 3-point mutual cooperation payoff.\n\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 210,
+    "output_tokens": 39
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    539,
+    18207,
+    6743,
+    357,
+    364,
+    4097,
+    18937,
+    11,
+    748,
+    353,
+    668,
+    2962,
+    310,
+    4992,
+    6743,
+    357,
+    310,
+    10000,
+    279,
+    14733,
+    220,
+    18,
+    16086,
+    25896,
+    22328,
+    81356,
+    13,
+    271,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\nround 5: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/257",
+    "n_steps": 39,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 2.1,
+   "extra": {}
+  },
+  {
+   "i": 11,
+   "round": 5,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\nround 5: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 501,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "I should continue choosing Option A because the opponent has consistently chosen Option A, and mutual cooperation yields a higher payoff for me (3) than unilateral defection would risk (0 if they switch, or 1 if they also defect).\n\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 210,
+    "output_tokens": 53
+   },
+   "token_ids": [
+    40,
+    1220,
+    2962,
+    18207,
+    6743,
+    357,
+    1521,
+    279,
+    14279,
+    682,
+    20073,
+    11543,
+    6743,
+    357,
+    11,
+    321,
+    25896,
+    22328,
+    34237,
+    264,
+    4918,
+    81356,
+    364,
+    728,
+    318,
+    18,
+    8,
+    1056,
+    82913,
+    10648,
+    399,
+    1000,
+    5048,
+    318,
+    15,
+    413,
+    781,
+    3289,
+    11,
+    466,
+    220,
+    16,
+    413,
+    781,
+    1048,
+    21531,
+    553,
+    271,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\nround 5: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/258",
+    "n_steps": 53,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 2.42,
+   "extra": {}
+  },
+  {
+   "i": 12,
+   "round": 6,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\nround 5: you=Option A, opponent=Option A\nround 6: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 602,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently chosen Option A, creating a stable cooperative pattern that yields the highest reliable payoff for me.\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 224,
+    "output_tokens": 28
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    11543,
+    6743,
+    357,
+    11,
+    6611,
+    264,
+    14733,
+    45883,
+    5215,
+    421,
+    34237,
+    279,
+    8166,
+    14294,
+    81356,
+    364,
+    728,
+    13,
+    198,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\nround 5: you=Option A, opponent=Option A\nround 6: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/259",
+    "n_steps": 28,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.67,
+   "extra": {}
+  },
+  {
+   "i": 13,
+   "round": 6,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\nround 5: you=Option A, opponent=Option A\nround 6: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 601,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently cooperated, so I will continue to choose Option A to maintain this mutually beneficial equilibrium and secure steady points.\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 224,
+    "output_tokens": 32
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    11,
+    748,
+    353,
+    668,
+    2962,
+    310,
+    4992,
+    6743,
+    357,
+    310,
+    10000,
+    411,
+    50713,
+    22957,
+    53454,
+    321,
+    9475,
+    23271,
+    3387,
+    13,
+    198,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\nround 5: you=Option A, opponent=Option A\nround 6: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/260",
+    "n_steps": 32,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.8,
+   "extra": {}
+  },
+  {
+   "i": 14,
+   "round": 7,
+   "agent": 0,
+   "me": "1",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\nround 5: you=Option A, opponent=Option A\nround 6: you=Option A, opponent=Option A\nround 7: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 701,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "Since the opponent has consistently cooperated, I will maintain the stable, mutually beneficial pattern of choosing Option A to ensure steady points.\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 238,
+    "output_tokens": 32
+   },
+   "token_ids": [
+    12189,
+    279,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    11,
+    353,
+    668,
+    10000,
+    279,
+    14733,
+    11,
+    50713,
+    22957,
+    5215,
+    314,
+    18207,
+    6743,
+    357,
+    310,
+    5790,
+    23271,
+    3387,
+    13,
+    198,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 1, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\nround 5: you=Option A, opponent=Option A\nround 6: you=Option A, opponent=Option A\nround 7: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/261",
+    "n_steps": 32,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 1.83,
+   "extra": {}
+  },
+  {
+   "i": 15,
+   "round": 7,
+   "agent": 1,
+   "me": "2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'."
+    },
+    {
+     "role": "user",
+     "content": "History:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\nround 5: you=Option A, opponent=Option A\nround 6: you=Option A, opponent=Option A\nround 7: you=Option A, opponent=Option A\n\nYour move."
+    }
+   ],
+   "parsed": "C",
+   "seed": 702,
+   "temperature": 0.7,
+   "top_p": null,
+   "text": "The opponent has consistently cooperated by choosing Option A, so I will continue to choose Option A to maintain the mutual cooperation that yields 3 points per round, which is the best outcome for me given their stable behavior, rather than risking a defection that would only give me 5 points once but likely trigger retaliation in the final round, reducing my total.\n\nMOVE: Option A",
+   "stop_reason": "end_turn",
+   "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 238,
+    "output_tokens": 78
+   },
+   "token_ids": [
+    760,
+    14279,
+    682,
+    20073,
+    21009,
+    639,
+    539,
+    18207,
+    6743,
+    357,
+    11,
+    748,
+    353,
+    668,
+    2962,
+    310,
+    4992,
+    6743,
+    357,
+    310,
+    10000,
+    279,
+    25896,
+    22328,
+    421,
+    34237,
+    220,
+    18,
+    3387,
+    791,
+    4625,
+    11,
+    864,
+    369,
+    279,
+    1786,
+    14830,
+    364,
+    728,
+    2574,
+    836,
+    14733,
+    7465,
+    11,
+    4598,
+    1056,
+    81994,
+    264,
+    10648,
+    399,
+    421,
+    1000,
+    1132,
+    2873,
+    728,
+    220,
+    20,
+    3387,
+    2957,
+    694,
+    4222,
+    7926,
+    58313,
+    303,
+    279,
+    1534,
+    4625,
+    11,
+    17191,
+    821,
+    2702,
+    13,
+    271,
+    28164,
+    25,
+    6743,
+    357
+   ],
+   "logprobs": null,
+   "prompt_text": "<|im_start|>system\nYou are Player 2, playing 8 rounds against the SAME opponent. Each round you BOTH simultaneously choose Option A or Option B. Per-round payoffs: Both choose Option A: you get 3. You Option A & they Option B: you 0, they 5. You Option B & they Option A: you 5, they 0. Both Option B: you 1. Goal: maximize YOUR OWN total points across all 8 rounds. Think one short sentence, then end with exactly 'MOVE: Option A' or 'MOVE: Option B'.<|im_end|>\n<|im_start|>user\nHistory:\nround 1: you=Option A, opponent=Option A\nround 2: you=Option A, opponent=Option A\nround 3: you=Option A, opponent=Option A\nround 4: you=Option A, opponent=Option A\nround 5: you=Option A, opponent=Option A\nround 6: you=Option A, opponent=Option A\nround 7: you=Option A, opponent=Option A\n\nYour move.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "tap": {
+    "dir": "/data/tap/262",
+    "n_steps": 78,
+    "layers": [
+     6,
+     11,
+     18,
+     30,
+     42,
+     47
+    ]
+   },
+   "latency_s": 2.81,
+   "extra": {}
+  }
+ ]
+}

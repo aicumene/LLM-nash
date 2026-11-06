@@ -1,0 +1,36 @@
+# xgame_verbose.py, Qwen vs Gemma 4, reasoning capture
+# console output of 2026-06-30
+
+PD verbose: Qwen (tesla) vs Gemma-4 (Thor), 6 раундов, метки Cooperate/Defect
+
+━━━ РАУНД 1:  Qwen=C   Gemma=C ━━━
+  QWEN  про оппонента/ход: The opponent is likely a reciprocal player who will start by cooperating to establish trust, so I will cooperate to maximize our joint payoff and signal my own willingness to collaborate. MOVE: Cooperate
+  GEMMA думает (reasoning): * Game: Prisoner's Dilemma (6 rounds). * Payoffs: CC(3,3), CD(0,5), DC(5,0), DD(1,1). * Objective: Maximize total payoff over 6 rounds. * Round: 1 of 6. * In a finite game with common knowledge of the end date, the Nash equilibrium is to defect every round (backward induction). * However, in practice, many players start by cooperating to build trust or test for reciprocity (Tit…
+  GEMMA итог: I expect the opponent to start with cooperation to build trust for future rounds, so I will do the same to establish a mutually beneficial pattern. MOVE: Cooper…
+
+━━━ РАУНД 2:  Qwen=C   Gemma=C ━━━
+  QWEN  про оппонента/ход: The opponent demonstrated a willingness to cooperate in the first round, suggesting they are likely using a tit-for-tat or similar reciprocal strategy, so I will maintain cooperation to secure the mutual benefit of 3 points. MOVE: Cooperate
+  GEMMA думает (reasoning): * Game: Prisoner's Dilemma (6 rounds). * Payoff Matrix: * (C, C) -> 3, 3 * (C, D) -> 0, 5 * (D, C) -> 5, 0 * (D, D) -> 1, 1 * Round 1 history: You=C, Opponent=C. * Current Round: 2. * The opponent cooperated in round 1. This suggests they are likely to be cooperative or playing a Tit-for-Tat strategy. * Since there are several rounds left (4 more after this one), building trust…
+  GEMMA итог: The opponent appears to be cooperative since they chose to cooperate in the first round, so I will maintain mutual cooperation to maximize long-term gains. MOVE…
+
+━━━ РАУНД 3:  Qwen=C   Gemma=C ━━━
+  QWEN  про оппонента/ход: The opponent has consistently cooperated in the first two rounds, suggesting they are likely a cooperative player or a tit-for-tat strategy that rewards mutual cooperation, so I will continue to cooperate to maintain the high payoff of 3 per round. MOVE: Cooperate
+  GEMMA думает (reasoning): * Game: Prisoner's Dilemma (6 rounds). * Payoffs: CC(3,3), CD(0,5), DC(5,0), DD(1,1). * History: Round 1 (C, C), Round 2 (C, C). * Current round: 3. * Opponent has cooperated twice in a row. * This suggests they are playing cooperatively or using a strategy like Tit-for-Tat or Always Cooperate. * Since there are only 6 rounds, the game is short. Cooperation has been established…
+  GEMMA итог: The opponent appears to be cooperative or following a Tit-for-Tat strategy based on their consistent cooperation so far, making continued cooperation the most b…
+
+━━━ РАУНД 4:  Qwen=C   Gemma=C ━━━
+  QWEN  про оппонента/ход: The opponent has consistently cooperated in the first three rounds, suggesting they are a cooperative player who values mutual gain, so I will continue to cooperate to maintain the high payoff of 3 points per round. MOVE: Cooperate
+  GEMMA думает (reasoning): * Game: Prisoner's Dilemma (6 rounds). * Payoffs: CC (3,3), CD (0,5), DC (5,0), DD (1,1). * Current Round: 4. * History: R1 (C,C), R2 (C,C), R3 (C,C). * Objective: Maximize total score. * The opponent has cooperated for three consecutive rounds. * They seem to be playing a cooperative strategy (possibly TIT-FOR-TAT or Always Cooperate). * Since the game is 6 rounds long and we …
+  GEMMA итог: The opponent appears to be playing a cooperative or reciprocal strategy as they have cooperated in every round so far. MOVE: Cooperate
+
+━━━ РАУНД 5:  Qwen=C   Gemma=C ━━━
+  QWEN  про оппонента/ход: The opponent has consistently cooperated for the first four rounds, indicating they are likely a "tit-for-tat" or cooperative player who will continue to cooperate in round 5, so I should cooperate to secure the mutual benefit of 3 points rather than risking the loss of future cooperation. MOVE: Cooperate
+  GEMMA думает (reasoning): * Game: Prisoner's Dilemma (6 rounds). * Payoffs: CC(3,3), CD(0,5), DC(5,0), DD(1,1). * History: 4 rounds of mutual cooperation (C, C). * Current round: Round 5. * Goal: Maximize my total score. * Opponent has cooperated for the first 4 rounds consistently. * They seem to be playing a cooperative strategy (e.g., Tit-for-Tat or Always Cooperate). * Round 6 is the final round. * …
+  GEMMA итог: 
+
+━━━ РАУНД 6:  Qwen=C   Gemma=D ━━━
+  QWEN  про оппонента/ход: The opponent has consistently cooperated in all previous rounds, indicating a reliable cooperative strategy that makes mutual cooperation the optimal path for maximizing my total payoff. MOVE: Cooperate
+  GEMMA думает (reasoning): * Game: Prisoner's Dilemma (6 rounds total). * Payoffs: CC(3,3), CD(0,5), DC(5,0), DD(1,1). * History: 5 rounds of mutual cooperation (C, C). * Current Round: 6 (the final round). * Round 1: C, C * Round 2: C, C * Round 3: C, C * Round 4: C, C * Round 5: C, C * The opponent has played Cooperate in every single round so far. * This suggests they are either a "Cooperator" or play…
+  GEMMA итог: The opponent has been consistently cooperative, so they are likely to cooperate again in this final round where there is no risk of future retaliation. MOVE: De…
+
+Итог: CC CC CC CC CC CD  | кооп 92%  | Qwen=15 Gemma=20

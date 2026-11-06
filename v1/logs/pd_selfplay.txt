@@ -1,0 +1,12 @@
+# pd.py, self-play, loaded and neutral labels
+# console output of 2026-06-30
+
+>> uploaded
+
+=== гружёные (Cooperate/Defect) ===
+раунды (P1P2): CC CC CC CC CC CC CC CC
+кооперация 100%  |  очки P1=24 P2=24  |  взаимный дефект (Нэш) в 0/8 раундах
+
+=== нейтральные (Option A/Option B) ===
+раунды (P1P2): CC CC CC CC CC CC CC CC
+кооперация 100%  |  очки P1=24 P2=24  |  взаимный дефект (Нэш) в 0/8 раундах

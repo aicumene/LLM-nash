@@ -1,0 +1,7 @@
+# analysis of the stored games
+numpy
+scipy
+sympy
+matplotlib
+# only to replay the games of the first version
+openai
